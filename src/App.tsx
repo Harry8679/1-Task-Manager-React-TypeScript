@@ -1,4 +1,5 @@
 import './App.css'
+import MyTasks from './components/MyTasks';
 
 function App() {
   const appTitle = "Task Manager";
@@ -8,6 +9,7 @@ function App() {
       <div className='mx-auto max-w-2xl'>
         <h1 className='text-3xl font-bold text-slate-900'>{appTitle}</h1>
         <p className='mt-2 text-slate-600'>Organisez vos tâches au quotidien</p>
+        <MyTasks />
       </div>
     </main>
   )
