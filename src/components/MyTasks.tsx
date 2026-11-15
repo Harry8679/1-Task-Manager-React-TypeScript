@@ -1,6 +1,6 @@
 const MyTasks = () => {
   return (
-    <div>MyTasks</div>
+    <p>You have 0 Tasks</p>
   )
 }
 export default MyTasks;
